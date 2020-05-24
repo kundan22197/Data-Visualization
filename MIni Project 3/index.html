@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project #</title>
+
+        <!-- link our CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- defer makes it so that these scripts load
+            in the background and then execute in order
+            after the DOM is ready -->
+
+        <!-- D3 library goes first -->
+        <script src="d3/d3.js" defer></script>
+        <script src="d3/d3-array.js" defer></script>
+        <script src="d3/d3-legend.min.js" defer></script>
+      <!--   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+ -->
+        <!-- Then our visualization code -->
+        <script src="visualizations/vis1.js" defer></script>
+        <script src="visualizations/vis2.js" defer></script>
+        <script src="visualizations/vis3.js" defer></script>
+
+        <!-- Then our code that calls the visualizations -->
+        <script src="main.js" defer></script>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <strong>
+                <p>Mini-project 3</p>
+                <p>Kundan Patel
+                <br>
+            kap675</p>
+            
+            </strong>
+
+            <h1>VISUALIZATION 1</h1>
+            <div id="vis1"></div>
+
+            <h1>VISUALIZATION 2</h1>
+            <div id="vis2"></div>
+
+            <h1>VISUALIZATION 3</h1>
+            <div id="vis3"></div>
+            <!-- <div id="vis31"></div>
+            <div id="vis32"></div>
+            <div id="vis33"></div> -->
+        </div>
+    </body>
+</html>
+
+
