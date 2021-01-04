@@ -20,3 +20,6 @@ To run the website, execute the command `python3 -m http.server` in this directo
 
 * `visualizations` contains the code to make the visualizations. 
 
+
+Code structure, on load the Fetch API makes a GET request to following (REST API)[https://health.data.ny.gov/resource/gnzp-ekau.json?$where=ccs_diagnosis_description like '%25CANCER%25'&$limit=10] Using the data obtained, analysis are performed on each specifc category such as gender, cancer type, age group & more.
+
